@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-code"></i>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <a href="https://hakimmurphy.github.io/recipeapp/" class="individual__link">
+            <h1 class="section__title section__title--intro">
+                <strong>Recipe App</strong>
+            </h1>
+        </a>
+        <p class="section__subtitle section__subtitle--intro">React Recipe App</p>
+        <img src="img/recipeapp.png" alt="Recipe App Image" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p> A React application, conceived in Vite, harnessing the power of a food API. 
+            Users seamlessly input ingredients into the search bar, triggering the retrieval of three delectable recipes.
+        </p>
+        <img src="img/recipeapp2.png" alt="Recipe App 2 Image" class="intro__img portfolio-item-space">
+    </div>
+
+    <div class="portfolio-item-individual">
+        <p>If a user discovers a tempting recipe, a simple click leads them to the full details. 
+            Uncover the required ingredients to craft the meal and follow step-by-step instructions for a delightful culinary experience.
+        </p>
+        <img src="img/recipeapp3.png" alt="Recipe App  3Image" class="intro__img portfolio-item-space">
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:hakim.a.murphy@gmail.com" class="footer__link">hakim.a.murphy@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/hakimmurphy"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.discogs.com/artist/335273-Hakim-Murphy"><i class="fa-solid fa-record-vinyl"></i></i></a>
+            </li>
+            <!-- <li class="social-list__item">
+                <a class="social-list__link" href="https://dribble.com"><i class="fa-brands fa-dribbble"></i></a>
+            </li> -->
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/machiningdreams/"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
