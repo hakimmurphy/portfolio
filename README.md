@@ -36,3 +36,13 @@ portfolio/
 - Content: edit section text, project links, and images in index.html.
 - Styles: tweak colors, spacing, and layout in css/style.css.
 - Behavior: update progress percentages and UI behavior in js/index.js.
+
+---
+
+## 📄 License
+MIT
+
+---
+
+## 🗣️ Author
+Hakim Murphy
